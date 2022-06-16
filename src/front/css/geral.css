@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ececec;
+}
+
+.area {
+  display: flex;
+  flex-direction: row;
+  background-color: aqua;
+  justify-content: center;
+}
+
+.division {
+  display: flex;
+  flex-direction: column;
+  background-color: #272b33;
+  width: 10%;
+  padding-left: 10px;
+  padding-top: 10px;
+}

@@ -22,3 +22,105 @@ body {
   padding-left: 10px;
   padding-top: 10px;
 }
+
+/* COLORS ------------------------------------------------------*/
+
+.color {
+  border: solid 1px white;
+  width: 40px;
+  height: 20px;
+}
+
+.paleta-cores {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.selected {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+/* CONFIGURATIONS -------------------------------------------*/
+
+.config {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.submit,
+.clear {
+  width: 110px;
+  padding: 2px;
+  background-color: #272b33;
+  border: 1px solid rgba(245, 245, 245, 0.829);
+  border-radius: 8px;
+  color: white;
+  font-size: 12px;
+  height: 30px;
+}
+
+.size {
+  width: 110px;
+  padding: 4px;
+  border-radius: 8px;
+  border: 1px solid rgba(245, 245, 245, 0.829);
+  margin-top: 20px;
+}
+
+/*BOARD------------------------------------------------------------*/
+
+.board {
+  background-color: #0a0c10;
+  display: flex;
+  width: 90%;
+  height: 730px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pixelBoard {
+  background-color: yellow;
+}
+
+.line {
+  font-size: 0;
+  text-align: center;
+}
+
+.pixel {
+  background-color: white;
+  border: solid 1px;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+
+/* FOOTER ------------------------------------------------------*/
+
+.rodape {
+  background-color: #272b33;
+  height: 61px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.credits {
+  color: rgba(235, 235, 235, 0.696);
+  font-size: 12px;
+}
